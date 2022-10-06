@@ -1,0 +1,21 @@
+#include<stdio.h>  
+int main()    
+{    
+ int i,fact=1,number;
+ int c=1;    
+ printf("Enter a number: ");    
+  scanf("%d",&number); 
+  if(number==0)
+  	printf("%d",c);
+  if
+
+    for(i=1;i<=number;i++){    
+      fact=fact*i;    
+    } 
+  else
+  
+	
+  printf("invalid"); 
+printf("Factorial of %d is: %d",number,fact);    
+return 0;  
+}
