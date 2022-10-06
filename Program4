@@ -1,0 +1,15 @@
+1.	int main()    
+2.	{    
+3.	 int n1=0,n2=1,n3,i,number;    
+4.	 printf("Enter the number of elements:");    
+5.	 scanf("%d",&number);    
+6.	 printf("\n%d %d",n1,n2);//printing 0 and 1    
+7.	 for(i=2;i<number;++i)//loop starts from 2 because 0 and 1 are already printed    
+8.	 {    
+9.	  n3=n1+n2;    
+10.	  printf(" %d",n3);    
+11.	  n1=n2;    
+12.	  n2=n3;    
+13.	 }  
+14.	  return 0;  
+}
